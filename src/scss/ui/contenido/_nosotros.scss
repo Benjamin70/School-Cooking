@@ -9,7 +9,9 @@
     }
 
     &__grid{
-        @include m.grid(3, 2rem);
+        @include m.tablet{ 
+            @include m.grid(3, 2rem);   
+        }
     }
 
     &__bloque{
